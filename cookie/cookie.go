@@ -1,8 +1,8 @@
 package cookie
 
 import (
-	"github.com/gin-contrib/sessions"
 	gsessions "github.com/gorilla/sessions"
+	"github.com/mizuki1412/sessions"
 )
 
 type Store interface {

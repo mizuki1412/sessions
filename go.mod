@@ -1,4 +1,4 @@
-module github.com/gin-contrib/sessions
+module github.com/mizuki1412/sessions
 
 go 1.13
 
@@ -13,7 +13,7 @@ require (
 	github.com/gorilla/sessions v1.2.0
 	github.com/kidstuff/mongostore v0.0.0-20181113001930-e650cd85ee4b
 	github.com/lib/pq v1.10.3 // indirect
-	github.com/memcachier/mc v2.0.1+incompatible
+	github.com/memcachier/mc v2.0.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b
 	github.com/rbcervilla/redisstore/v8 v8.1.0

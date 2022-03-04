@@ -3,7 +3,7 @@ package postgres
 import (
 	"database/sql"
 	"github.com/antonlindstrom/pgstore"
-	"github.com/gin-contrib/sessions"
+	"github.com/mizuki1412/sessions"
 )
 
 type Store interface {

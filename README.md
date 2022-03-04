@@ -1,10 +1,10 @@
 # sessions
 
-[![Run CI Lint](https://github.com/gin-contrib/sessions/actions/workflows/lint.yml/badge.svg)](https://github.com/gin-contrib/sessions/actions/workflows/lint.yml)
-[![Run Testing](https://github.com/gin-contrib/sessions/actions/workflows/testing.yml/badge.svg)](https://github.com/gin-contrib/sessions/actions/workflows/testing.yml)
+[![Run CI Lint](https://github.com/mizuki1412/sessions/actions/workflows/lint.yml/badge.svg)](https://github.com/mizuki1412/sessions/actions/workflows/lint.yml)
+[![Run Testing](https://github.com/mizuki1412/sessions/actions/workflows/testing.yml/badge.svg)](https://github.com/mizuki1412/sessions/actions/workflows/testing.yml)
 [![codecov](https://codecov.io/gh/gin-contrib/sessions/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/sessions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/sessions)](https://goreportcard.com/report/github.com/gin-contrib/sessions)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/sessions?status.svg)](https://godoc.org/github.com/gin-contrib/sessions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mizuki1412/sessions)](https://goreportcard.com/report/github.com/mizuki1412/sessions)
+[![GoDoc](https://godoc.org/github.com/mizuki1412/sessions?status.svg)](https://godoc.org/github.com/mizuki1412/sessions)
 [![Join the chat at https://gitter.im/gin-gonic/gin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gin-gonic/gin)
 
 Gin middleware for session management with multi-backend support:
@@ -23,13 +23,13 @@ Gin middleware for session management with multi-backend support:
 Download and install it:
 
 ```bash
-go get github.com/gin-contrib/sessions
+go get github.com/mizuki1412/sessions
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/sessions"
+import "github.com/mizuki1412/sessions"
 ```
 
 ## Basic Examples
@@ -40,8 +40,8 @@ import "github.com/gin-contrib/sessions"
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/mizuki1412/sessions"
+  "github.com/mizuki1412/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -70,8 +70,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/mizuki1412/sessions"
+  "github.com/mizuki1412/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -112,8 +112,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/mizuki1412/sessions"
+  "github.com/mizuki1412/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -147,8 +147,8 @@ package main
 
 import (
 	"context"
-	"github.com/gin-contrib/sessions"
-	redistore "github.com/gin-contrib/sessions/redis"
+	"github.com/mizuki1412/sessions"
+	redistore "github.com/mizuki1412/sessions/redis"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 )
@@ -188,8 +188,8 @@ package main
 
 import (
   "github.com/bradfitz/gomemcache/memcache"
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memcached"
+  "github.com/mizuki1412/sessions"
+  "github.com/mizuki1412/sessions/memcached"
   "github.com/gin-gonic/gin"
 )
 
@@ -222,8 +222,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memcached"
+  "github.com/mizuki1412/sessions"
+  "github.com/mizuki1412/sessions/memcached"
   "github.com/gin-gonic/gin"
   "github.com/memcachier/mc"
 )
@@ -258,8 +258,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/mongo"
+  "github.com/mizuki1412/sessions"
+  "github.com/mizuki1412/sessions/mongo"
   "github.com/gin-gonic/gin"
   "github.com/globalsign/mgo"
 )
@@ -299,8 +299,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memstore"
+  "github.com/mizuki1412/sessions"
+  "github.com/mizuki1412/sessions/memstore"
   "github.com/gin-gonic/gin"
 )
 
@@ -334,8 +334,8 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/postgres"
+	"github.com/mizuki1412/sessions"
+	"github.com/mizuki1412/sessions/postgres"
 	"github.com/gin-gonic/gin"
 )
 

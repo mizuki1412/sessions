@@ -3,7 +3,7 @@ package memcached
 import (
 	"github.com/bradfitz/gomemcache/memcache"
 	gsm "github.com/bradleypeabody/gorilla-sessions-memcache"
-	"github.com/gin-contrib/sessions"
+	"github.com/mizuki1412/sessions"
 )
 
 type Store interface {
